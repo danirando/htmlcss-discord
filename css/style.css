@@ -92,11 +92,11 @@ header {
     justify-content: flex-end;
 }
 
-.btn-small {
+.btn {
     all: unset;
     cursor: pointer;
     background-color: white;
-    padding: 5px 10px;
+    padding: 5px 20px;
     border-radius: 25px;
 }
 
@@ -105,17 +105,41 @@ header {
 
 .header-bottom {
     padding: 50px 500px;
-    background-color: #000191;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .content {
-    background-color: #FF7AF3;
+
     margin: auto;
     max-width: 900px;
     height: 400px;
-    border: 1px dashed black;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
 
+.content * {
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+.content button.primary {
+    color: black;
+}
+
+.content button.secondary {
+    color: white;
+    background-color: #22272A;
+}
+
+.content h1 {
+    padding-bottom: 20px;
 }
 
 /* MAIN */
