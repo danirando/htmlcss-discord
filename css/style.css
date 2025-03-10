@@ -291,3 +291,16 @@ footer {
     padding: 5px 10px;
     font-size: 0.7rem;
 }
+
+.ondine {
+    margin-bottom: -4px;
+}
+
+.ondine img {
+    width: 100%;
+}
+
+.ondine.capovolte {
+    margin-top: -4px;
+    transform: rotate(180deg);
+}
