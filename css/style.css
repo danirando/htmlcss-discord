@@ -8,6 +8,7 @@
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 ul {
@@ -50,21 +51,21 @@ header {
 .header-top {
     display: flex;
     padding: 10px 350px;
+    background-color: #0060F2;
 
 }
 
 .logo,
 .link,
 .login {
-
-    padding: 16px;
-    vertical-align: middle;
+    display: flex;
     font-size: small;
-    background-color: #E4A200;
+    /* background-color: #E4A200; */
 }
 
 .link {
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
 }
 
@@ -76,6 +77,29 @@ header {
 .login {
     text-align: end;
 }
+
+.logo img {
+    vertical-align: middle;
+}
+
+.link ul li {
+    display: inline-block;
+    padding: 0 20px;
+    color: white;
+}
+
+.login {
+    justify-content: flex-end;
+}
+
+.btn-small {
+    all: unset;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
 
 /* HEADER bottom */
 
