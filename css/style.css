@@ -153,15 +153,13 @@ header {
 .big {
     width: 720px;
     height: 500px;
-    background-color: #0093FF;
-    border: 1px dashed black;
+
 }
 
 .small {
     width: 480px;
     height: 500px;
-    background-color: #FFBDCA;
-    border: 1px dashed black;
+    padding: 30px;
 }
 
 .reverse {
@@ -199,6 +197,10 @@ header {
 
 .section.bottom {
     background-color: #22272A;
+}
+
+.small h1 {
+    padding-bottom: 20px;
 }
 
 /* FOOTER */
