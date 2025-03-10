@@ -45,7 +45,6 @@ body {
 
 header {
     background-color: #A1DAE9;
-    padding-bottom: 2px;
 }
 
 .header-top {
@@ -169,9 +168,11 @@ header {
 
 .bigger {
     width: 1200px;
-    height: 900px;
-    background-color: #008D00;
-    border: 1px dashed black;
+    text-align: center;
+}
+
+.bigger h1 {
+    padding-bottom: 20px;
 }
 
 .gray {
@@ -202,6 +203,23 @@ header {
 .small h1 {
     padding-bottom: 20px;
 }
+
+.titolopiccolo {
+    font-size: 1rem;
+}
+
+.bigger button {
+    background-color: #6C8AE0;
+    padding: 10px 20px;
+}
+
+.stelline {
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 
 /* FOOTER */
 
