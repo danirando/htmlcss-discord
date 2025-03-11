@@ -292,15 +292,16 @@ footer {
     font-size: 0.7rem;
 }
 
-.ondine {
-    margin-bottom: -4px;
+.ondine * {
+    display: block;
+
 }
 
 .ondine img {
     width: 100%;
 }
 
-.ondine.capovolte {
-    margin-top: -4px;
+.ondine.capovolte * {
+    display: block;
     transform: rotate(180deg);
 }
